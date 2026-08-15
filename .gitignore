@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments / package caches
+.cache/
+.pythonlibs/
+uv.lock
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Generated docking outputs
+docking_poses/
+clean_pdbs/
+
+# Result files
+*.csv
+*.xlsx
+*.xls
+
+# Replit internals
+.breakpoints
+.replit.nix
+.upm/
+.config/
+
+# Temp / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Large binary / data files
+*.pdb
+*.pdbqt
